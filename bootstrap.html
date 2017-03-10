@@ -4,15 +4,76 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/
-      3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
 
-<!-- Code goes here. -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> <!-- this is the burger -->
+          </button>
+          <a class="navbar-brand" href="#">M+Kode</a>
+        </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li> <!-- look clicked -->
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shop!</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Favorite Melons</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+
+      <div class="container">
+        <div class="row">
+            <article class="col-xs-offset-3 col-xs-6">
+                <h1>Anansi Boys by Neil Gaiman, read by Lenny Henry</h1>
+
+                <p>Another one which I listened to twice (at least), and laughed out loud both times. “Fat Charlie” is the son of a West African trickster god, called Anansi the Spider. Of course, Fat Charlie doesn’t realize that at the beginning of the book. All he knows is that his father, who everyone else finds charming, stands between him and his dreams of normalcy. Fat Charlie grew up the butt of his father’s pranks, constantly embarrassed by his father’s antics. Even his father’s death is a source of embarrassment. And he discovers he has an opposite twin, just as mischievous as his father. You’ll cringe for poor Charlie as his life goes to pieces, but you’ll be glad in the end.</p>
+            </article>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <span class="glyphicon glyphicon-book"></span>
+                <p>Another one which I listened to twice (at least), and laughed out loud both times. “Fat Charlie” is the son of a West African trickster god, called Anansi the Spider. Of course, Fat Charlie doesn’t realize that at the beginning of the book. All he knows is that his father, who everyone else finds charming, stands between him and his dreams of normalcy. Fat Charlie grew up the butt of his father’s pranks, constantly embarrassed by his father’s antics. Even his father’s death is a source of embarrassment. And he discovers he has an opposite twin, just as mischievous as his father. You’ll cringe for poor Charlie as his life goes to pieces, but you’ll be glad in the end.</p>
+            </div>
+            <div class="col-xs-4">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                <p>Another one which I listened to twice (at least), and laughed out loud both times. “Fat Charlie” is the son of a West African trickster god, called Anansi the Spider. Of course, Fat Charlie doesn’t realize that at the beginning of the book. All he knows is that his father, who everyone else finds charming, stands between him and his dreams of normalcy. Fat Charlie grew up the butt of his father’s pranks, constantly embarrassed by his father’s antics. Even his father’s death is a source of embarrassment. And he discovers he has an opposite twin, just as mischievous as his father. You’ll cringe for poor Charlie as his life goes to pieces, but you’ll be glad in the end.</p>
+            </div>
+            <div class="col-xs-4">
+                <span class="glyphicon glyphicon-glass"></span>
+                <p>Another one which I listened to twice (at least), and laughed out loud both times. “Fat Charlie” is the son of a West African trickster god, called Anansi the Spider. Of course, Fat Charlie doesn’t realize that at the beginning of the book. All he knows is that his father, who everyone else finds charming, stands between him and his dreams of normalcy. Fat Charlie grew up the butt of his father’s pranks, constantly embarrassed by his father’s antics. Even his father’s death is a source of embarrassment. And he discovers he has an opposite twin, just as mischievous as his father. You’ll cringe for poor Charlie as his life goes to pieces, but you’ll be glad in the end.</p>
+            </div>
+        </div>
+
+    <!--     <div class="row">
+            <div class="visible-lg-*">
+                 ggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj gjjjjjjjjjjjjjjjjjjjjjjjjjjj
+               
+            </div>
+        </div>
+ -->
+      </div>
+
+
+    </nav>
 
 
 
